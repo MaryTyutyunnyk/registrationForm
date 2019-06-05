@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pop-up</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+	<div class="header-container container">
+		<a href="#" class="header-logo">Journey</a>
+		<div class="header-content">
+			<div class="icons">
+				<a href="#" class="icon calendar-icon"></a>
+				<a href="#" class="icon forum-icon"></a>
+				<a href="#" class="icon compass-icon"></a>
+			</div>
+			<div class="header-authorization">
+				<span>Welcome, <a href="#" class="green-link">Log in</a></span>
+				<span>or <a href="#" class="green-link">Sign up</a></span>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="authorization-pop-up-container">
+	<div class="authorization-pop-up">
+		<span class="green-square"></span>
+		<div class="sign-up">
+			<h3 class="sign-up-name">Sign Up</h3>
+			<a href="" class="green-link ">Log in</a>
+		</div>
+		<div class="social-bottom">
+			<a href="" class="facebook-link social-bottom-link">
+				<img class="facebook-icon" src="img/facebook.png" alt="Facebook logo">
+				<hr class="vertical-line">
+				<span class="social-link-text">Facebook</span>
+			</a>
+			<a href="" class="google-plus-link social-bottom-link">
+				<img src="img/google-plus.png" alt="Google Plus logo">
+				<hr class="vertical-line">
+				<span class="social-link-text">Google</span>
+			</a>
+		</div>
+		<span class="horizontal-line-info">
+                <span class="horizontal-line-text">or</span>
+            </span>
+
+		<form action="#" class="authorization-form" autocomplete="off">
+
+			<input type="text" name="name" class="authorization-form-field" placeholder="Jason" tabindex="1" autofocus
+			       required>
+			<input type="text" name="name" class="authorization-form-field" placeholder="Last Name" tabindex="2"
+			       required>
+			<input type="email" name="email" class="authorization-form-field" placeholder="Email" tabindex="3" required>
+			<input type="password" name="password" class="authorization-form-field" placeholder="Choose Password"
+			       tabindex="4" required>
+			<input type="password" name="password" class="authorization-form-field" placeholder="Confirm Password"
+			       tabindex="5" required>
+			<input type="checkbox" checked name="text" id="agree" class="visuallyhidden">
+			<label for="agree">Argee our <a href="#" class="green-link">Terms &#38; Conditions</a></label>
+			<input type="submit" class="green-submit-bottom" value="Create Account">
+		</form>
+	</div>
+</div>
+</body>
+</html>
