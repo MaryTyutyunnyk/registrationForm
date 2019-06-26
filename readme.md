@@ -1,4 +1,6 @@
-You can see the finished project here - https://marytyutyunnyk.github.io/registrationForm/
+Registration form. Stack: HTML5, CSS3, Flexbox CSS.
+
+Watch demo - https://marytyutyunnyk.github.io/registrationForm/
 
 The task: Make the HTML page from the PSD layout. 
 
